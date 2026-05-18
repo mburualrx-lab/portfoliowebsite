@@ -4,11 +4,11 @@ This is my personal portfolio website where I showcase my projects.
 
 ## How to View
 
-Open `ALEX.html` in your web browser to view the website.
+Open `index.html` in your web browser to view the website.
 
 ## Customization
 
-- Edit `ALEX.html` to change the content, such as adding more projects or updating contact info.
+- Edit `index.html` to change the content, such as adding more projects or updating contact info.
 - Modify `style.css` to change the appearance.
 
 ## Adding Projects
