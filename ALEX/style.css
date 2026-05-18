@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #070b16;
+    background-image: url(Gemini_Generated_Image_nz2twmnz2twmnz2t.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+    z-index: -1;
+    pointer-events: none;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.70);
+    background-image: url(a1.png);
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+h1, h2, h3, p, a {
+    color: #f4f4f4;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.project {
+    background: rgba(0, 0, 0, 0.70);
+    background-image: url(a1.png);
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+    color: #f4f4f4;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.85);
+    background-image: url(a1.png);
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
