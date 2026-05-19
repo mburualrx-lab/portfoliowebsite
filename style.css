@@ -3,10 +3,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #070b16;
-    background-image: url(image\ 1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    position: relative;
     color: #f4f4f4;
     overflow-x: hidden;
 }
@@ -17,6 +14,21 @@ body::before {
     inset: 0;
     background: rgba(0, 0, 0, 0.35);
     z-index: -1;
+    pointer-events: none;
+}
+
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-image: url("image 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    transform: rotate(6deg) scale(1.03);
+    transform-origin: center;
+    z-index: -2;
+    filter: contrast(1.08) saturate(1.05);
     pointer-events: none;
 }
 
