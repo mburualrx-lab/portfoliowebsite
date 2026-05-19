@@ -12,7 +12,7 @@ body::before {
     content: "";
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.35);
+    background: rgba(0, 0, 0, 0.18);
     z-index: -1;
     pointer-events: none;
 }
@@ -24,11 +24,11 @@ body::after {
     background-image: url("image 1.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center right;
-    transform: rotate(6deg) scale(1.03);
+    background-position: center center;
+    transform: none;
     transform-origin: center;
     z-index: -2;
-    filter: contrast(1.08) saturate(1.05);
+    filter: contrast(1.12) saturate(1.08);
     pointer-events: none;
 }
 
@@ -85,8 +85,8 @@ section {
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.85);
-    background-image: url(a1.png);
+    background-color: rgba(0, 0, 0, 0.60);
+    background-image: none;
     color: #ffffff;
     text-align: center;
     padding: 1rem;
