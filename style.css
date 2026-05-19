@@ -138,6 +138,39 @@ footer {
 .btn { display:inline-block; margin-top:0.8rem; background:#2a9d8f; color:#072; color:#fff; padding:0.6rem 1rem; border-radius:6px; text-decoration:none }
 
 @media (max-width:900px){
-    .about-container{ grid-template-columns: 1fr; }
+    .about-container,
+    .contact-container { grid-template-columns: 1fr; }
     footer{ position: static; }
 }
+
+/* Contact page styles */
+.contact-section {
+    padding: 3rem 1rem 6rem;
+}
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 2rem;
+    align-items: start;
+}
+.contact-left,
+.contact-right {
+    background: rgba(0,0,0,0.55);
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+.contact-right {
+    background: rgba(0,0,0,0.45);
+}
+.contact-right h3,
+.contact-left h2 {
+    margin-top: 0;
+}
+.contact-section p a {
+    color: #2a9d8f;
+    text-decoration: none;
+}
+.contact-section p a:hover {
+    text-decoration: underline;
+}
+
