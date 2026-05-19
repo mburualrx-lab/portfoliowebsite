@@ -95,3 +95,49 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* About page styles */
+.about-section {
+    padding: 3rem 1rem 6rem;
+}
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 2rem;
+    align-items: start;
+}
+.about-left {
+    background: rgba(0,0,0,0.55);
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+.about-right {
+    background: rgba(0,0,0,0.45);
+    padding: 1rem;
+    border-radius: 10px;
+}
+.avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    background: linear-gradient(135deg,#264653,#2a9d8f);
+    color: #fff;
+    font-size: 36px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 1rem;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.5);
+}
+.lead {
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+.skills { list-style:none; padding:0; margin:0 0 1rem 0; display:flex; flex-wrap:wrap; gap:0.5rem }
+.skill { background: rgba(255,255,255,0.06); padding:0.4rem 0.6rem; border-radius:6px; font-size:0.95rem }
+.btn { display:inline-block; margin-top:0.8rem; background:#2a9d8f; color:#072; color:#fff; padding:0.6rem 1rem; border-radius:6px; text-decoration:none }
+
+@media (max-width:900px){
+    .about-container{ grid-template-columns: 1fr; }
+    footer{ position: static; }
+}
